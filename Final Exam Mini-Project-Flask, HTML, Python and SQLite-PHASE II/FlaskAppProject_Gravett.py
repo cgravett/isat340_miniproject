@@ -87,6 +87,24 @@ def info():
                            success=success)
 
 
+@app.route('/view_all_celebs')
+def view_all():
+    celebID=None
+    firstname = ''
+    lastname =''
+    age = ''
+    email = ''
+    photo = ''
+    bio = ''
+
+    conn = sqlite3.connect('celebrities.db')
+    c = conn.cursor()
+    c.execute('''SELECT * FROM celebs ORDER BY celebID''')
+    rows = c.fetchall()
+    conn.close()
+    #return
+    return render_template('view_all_celebs.htm',
+        rows=rows)
 
 def get(request):
     pass
