@@ -77,7 +77,7 @@ def info():
         conn.commit()
         conn.close()
 
-    return render_template('profile.htm',
+    return render_template('profile.html',
                            memberID=memberID,
                            firstname=firstname,
                            lastname=lastname,
