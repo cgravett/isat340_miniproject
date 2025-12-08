@@ -3,7 +3,7 @@ import sqlite3
 conn = sqlite3.connect("celebrities.db")
 cursor = conn.cursor()
 # SQL SELECT statement
-sql = "SELECT * FROM members"
+sql = "SELECT * FROM member_login"
 cursor.execute(sql)
 # Get the rows
 rows = cursor.fetchall()
