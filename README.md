@@ -38,7 +38,7 @@ the http://localhost:5000 link to open the program
 
 ## How to Use
 <img width="1091" height="195" alt="image" src="https://github.com/user-attachments/assets/759f67c4-e5a6-4ad8-88c3-66937c879e25" align="right" />
-
+* Type in your browser: http://ec2-98-93-2-167.compute-1.amazonaws.com:5000/
 * Enter memberID, username, and password on the login page.
 * View or update your profile information.
 * Navigate to:
