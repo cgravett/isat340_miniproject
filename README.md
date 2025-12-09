@@ -29,8 +29,7 @@ This project demonstrates a functional Flask web application with user login, pr
 2. Run the Flask file:
    FlaskAppProject_LastName.py
 
-3. Open the terminal and Ctrl+LeftClick on
-the http://localhost:5000 link to open the program
+3. Open you browser and type in this link: http://ec2-98-93-2-167.compute-1.amazonaws.com:5000/
    
 4. Log in with memberID, username, and password from the database.
 
